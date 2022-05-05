@@ -7,6 +7,7 @@
   <LifeCycle />
   <Diretivas />
   <Picture />
+  <ManipulacaoArray />
   
   <hr>
   <ul>
@@ -19,6 +20,7 @@ import PrimeiroComponente from '../components/PrimeiroComponente.vue'
 import Diretivas from '../components/Diretivas.vue'
 import LifeCycle from '../components/LifeCycle.vue'
 import Picture from '../components/Picture.vue'
+import ManipulacaoArray from '../components/ManipulacaoArray.vue'
 
 export default {
   name: 'App',
@@ -26,7 +28,8 @@ export default {
     PrimeiroComponente,
     LifeCycle,
     Diretivas,
-    Picture
+    Picture,
+    ManipulacaoArray
   }
 }
 </script>
